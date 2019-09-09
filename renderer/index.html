@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>excel_reformater b5</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <div id="fadescreen" class="hidden">
+      <span class="fadescreen__message">
+      <span id="statusMsg">processing...</span>
+    </div>
+    <div class="container">
+      <img src="./images/logo_mai.png">
+    </div>
+    <div class="container">
+      <h1 class="appName">excel reformater b5</h1>
+    </div>
+    <div id="msgOne" class="container">
+      <div class="box box__part">Open the source file by pressing the "PREPARE" button and import your data.</div>
+    </div>
+    <div id="msgTwo" class="container hidden">
+        <div class="box box__part">When done preparing the source file run the app using the "RUN" button.</div>
+    </div>
+    <div id="msgThree" class="container hidden">
+      <div class="box box__part">Open your new file and close the App using the "OPEN FILE" button.</div>
+    </div>
+    <input id="prepBtn" type="button" class="bigBtn bigBtn--visible" value="PREPARE">
+    <input id="runBtn" type="button" class="bigBtn hidden" value="RUN">
+    <input id="openBtn" type="button" class="bigBtn hidden" value="OPEN FILE">
+    <div id="copyRight">© 2019 BY MACIEJ KRUPA</div>
+    <div id="roller" class="roller hidden"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+
+    <script src="./index.js"></script>
+
+  </body>
+
+</html>
