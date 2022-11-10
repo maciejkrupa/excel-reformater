@@ -11,7 +11,7 @@
   "author": "Maciej Krupa",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^5.0.9",
+    "electron": "^18.3.7",
     "electron-builder": "^21.2.0"
   },
   "dependencies": {
